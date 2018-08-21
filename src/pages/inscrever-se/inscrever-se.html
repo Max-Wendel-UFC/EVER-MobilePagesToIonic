@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Inscrever-se
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page15">
+  <h3 id="inscreverSe-heading12" style="color:#100F0F;">
+    Workshop de Tecnologia do Sertão Central
+  </h3>
+  <div id="inscreverSe-container10">
+    <h4 id="inscreverSe-heading13" style="color:#000000;">
+      Tipos de Atividade
+    </h4>
+  </div>
+  <ion-list id="inscreverSe-list11">
+    <ion-item color="none" id="inscreverSe-list-item18">
+      Minicurso
+    </ion-item>
+    <ion-item color="none" id="inscreverSe-list-item20">
+      Palestra
+    </ion-item>
+    <ion-item color="none" id="inscreverSe-list-item21">
+      Tipo 3
+    </ion-item>
+  </ion-list>
+  <h4 id="inscreverSe-heading14" style="color:#000000;">
+    Personalização da inscrição
+  </h4>
+  <ion-list id="inscreverSe-list12">
+    <ion-item color="none" on-click="goToAtividadeSelecionadas()" id="inscreverSe-list-item22">
+      Suas inscrições
+      <ion-icon name="arrow-dropright" item-right></ion-icon>
+    </ion-item>
+  </ion-list>
+  <h4 id="inscreverSe-heading15" style="color:#000000;">
+    Atividades
+  </h4>
+  <ion-list id="inscreverSe-list8">
+    <ion-item color="none" on-click="goToAtividadeInfo()" id="inscreverSe-list-item12">
+      Mercado de trabalho para Python Dev's.
+      <ion-icon name="arrow-dropright" item-right></ion-icon>
+    </ion-item>
+    <ion-item color="none" id="inscreverSe-list-item16">
+      Mineração de Bitcoins com dispositivos móveis.
+      <ion-icon name="arrow-dropright" item-right></ion-icon>
+    </ion-item>
+    <ion-item color="none" id="inscreverSe-list-item23">
+      Atividade 3
+      <ion-icon name="arrow-dropright" item-right></ion-icon>
+    </ion-item>
+  </ion-list>
+  <h4 id="inscreverSe-heading16" style="color:#000000;">
+    Modalidade
+  </h4>
+  <form id="inscreverSe-form7">
+    <ion-item id="inscreverSe-select8">
+      <ion-label>
+        Modalidade
+      </ion-label>
+      <ion-select name="modalidade">
+        <ion-option>
+          Única
+        </ion-option>
+        <ion-option>
+          Bolsista
+        </ion-option>
+        <ion-option>
+          Visitante
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <h4 id="inscreverSe-heading17" style="color:#000000;">
+      Total
+    </h4>
+    <ion-item color="none" id="inscreverSe-list-item24">
+      <ion-icon name="calculator" item-left></ion-icon>
+      R$ 30,00
+    </ion-item>
+    <button id="inscreverSe-button10" ion-button color="positive" block on-click="goToMinhasInscriEs()">
+      Inscrever-se
+    </button>
+  </form>
+</ion-content>

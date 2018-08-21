@@ -1,0 +1,31 @@
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21" style="background-color:#F2F5F6;">
+    <ion-list id="menu-list2">
+      <ion-item color="positive" menuClose="" on-click="goToHome()" id="menu-list-item5">
+        Home
+        <ion-icon name="home" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="positive" menuClose="" on-click="goToMinhasInscriEs()" id="menu-list-item7">
+        Minhas Inscrições
+        <ion-icon name="bookmark" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="positive" menuClose="" on-click="goToGerenciarConta()" id="menu-list-item6">
+        Gerenciar Conta
+        <ion-icon name="contact" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="assertive" menuClose="" on-click="goToLogin()" id="menu-list-item8">
+        Sair
+        <ion-icon name="exit" item-right></ion-icon>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
